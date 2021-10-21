@@ -3,97 +3,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:background="@color/colorWhite"
     tools:context=".MainActivity">
-    <!-- Exercici 3 -->
+    <!-- Exercici 2 -->
 
     <TextView
-        android:id="@+id/ex1"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="5dp"
-        android:layout_weight="0"
+        android:id="@+id/ex_1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorRed"
+        android:gravity="center"
+        android:text="Aarón Aguirre">
+    </TextView>
+
+    <TextView
+        android:id="@+id/ex2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
         android:background="@color/colorGreen"
-        android:gravity="left"
+        android:gravity="center"
         android:text="Aarón Aguirre"></TextView>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:background="@color/colorYellow"
-        android:orientation="horizontal">
-        <TextView
-            android:id="@+id/ex2"
-            android:layout_margin="10dp"
-            android:layout_width="115dp"
-            android:layout_height="115dp"
-            android:background="@color/colorRed"
-            android:text="Aarón Aguirre"></TextView>
-        <TextView
-            android:id="@+id/ex2.2"
-            android:layout_margin="10dp"
-            android:layout_width="115dp"
-            android:layout_height="115dp"
-            android:background="@color/colorGreen"
-            android:text="Aarón Aguirre"></TextView>
-        <TextView
-            android:id="@+id/ex2.3"
-            android:layout_width="match_parent"
-            android:layout_height="115dp"
-            android:layout_margin="10dp"
-            android:background="@color/colorBlue"
-            android:text="Aarón Aguirre"></TextView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="3"
-        android:background="@color/colorFuchsia"
-        android:orientation="horizontal">
-        <TextView
-            android:id="@+id/ex_3"
-            android:layout_width="80dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:background="@color/colorAqua"
-            android:text="Aarón Aguirre"></TextView>
-        <TextView
-            android:id="@+id/ex_3.2"
-            android:layout_width="80dp"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:background="@color/colorYellow"
-            android:text="Aarón Aguirre"></TextView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:layout_margin="10dp"
-            android:background="@color/colorRed"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/ex_3.3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@color/colorWhite"
-                android:text="Aarón Aguirre"></TextView>
-            <TextView
-                android:id="@+id/ex_3.4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@color/colorAqua"
-                android:text="Aarón Aguirre"></TextView>
-        </LinearLayout>
-
-    </LinearLayout>
+    <TextView
+        android:id="@+id/ex_3.4"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorBlue"
+        android:gravity="center"
+        android:text="Aarón Aguirre">
+    </TextView>
 
 </LinearLayout>
